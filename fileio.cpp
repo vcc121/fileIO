@@ -30,8 +30,9 @@ int main(){
 		converter >> num1 >> num2;
 
 		sum = num1 + num2;
-		        for (int i = 0; i < sum; i++) {
-            cout << text << " ";
+		
+		for (int i = 0; i < sum; i++) {
+        cout << text << " ";
         }
         cout << endl;
     }
