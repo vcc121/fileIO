@@ -20,9 +20,9 @@ int main(){
 		converter.clear();
 		converter.str(currentLine);
 
-		getLine(converter, sNum1, ',');
-		getLine(converter, sNum2, ',');
-		getLine(converter, text);
+		getline(converter, sNum1, ',');
+		getline(converter, sNum2, ',');
+		getline(converter, text);
 		
 		converter.clear();
 		converter.str("");
@@ -30,7 +30,7 @@ int main(){
 		converter >> num1 >> num2;
 
 		sum = num1 + num2;
-		
+
 		for (int i = 0; i < sum; i++) {
         cout << text << " ";
         }
