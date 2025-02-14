@@ -32,9 +32,9 @@ int main(){
 		sum = num1 + num2;
 
 		for (int i = 0; i < sum; i++) {
-        cout << text << " ";
+        std::cout << text << " ";
         }
-        cout << endl;
+        std::cout << std::endl;
     }
 
     inFile.close();
