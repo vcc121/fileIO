@@ -29,4 +29,13 @@ int main(){
 		converter << sNum1 << " " << sNum2;
 		converter >> num1 >> num2;
 
+		sum = num1 + num2;
+		        for (int i = 0; i < sum; i++) {
+            cout << text << " ";
+        }
+        cout << endl;
+    }
 
+    inFile.close();
+    return 0;
+}
